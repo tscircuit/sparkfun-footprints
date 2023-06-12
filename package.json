@@ -15,7 +15,7 @@
     "redaxios": "^0.5.1"
   },
   "devDependencies": {
-    "download-git-repo": "^3.0.2",
+      "download-git-repo": "^3.0.2",
     "tsx": "^3.12.7"
   }
 }
