@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test speciied\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,9 @@
   "dependencies": {
     "make-vfs": "^1.0.6",
     "redaxios": "^0.5.1"
+  },
+  "devDependencies": {
+    "download-git-repo": "^3.0.2",
+    "tsx": "^3.12.7"
   }
 }
