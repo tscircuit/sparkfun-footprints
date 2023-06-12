@@ -24,6 +24,8 @@ async function main() {
   // console.log(numToLayerNameMap);
 
   const comp = parsedEagle.library.packages[0];
+  
+  comp.smd
 
   console.log(comp);
 }
