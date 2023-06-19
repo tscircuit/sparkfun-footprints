@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test speciied\" && exit 1"
+    "download-sparkfun-libs": "tsx ./scripts/download-sparkfun-libs.ts",
+    "convert-sparkfun-eagle-to-json": "tsx ./scripts/convert-sparkfun-eagle-to-json.ts"
   },
   "keywords": [],
   "author": "",

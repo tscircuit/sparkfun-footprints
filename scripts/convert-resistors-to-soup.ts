@@ -11,7 +11,7 @@ async function main() {
   const parsedEagle = parseEagleXML(resistorXml)
 
   await fs.writeFile(
-    "tmp/parsed-eagle.json",
+    "tmp-sparkfun-repo/json/SparkFun-Resistors.json",
     JSON.stringify(parsedEagle, null, "  ")
   )
 
