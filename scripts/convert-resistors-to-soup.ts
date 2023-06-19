@@ -1,5 +1,6 @@
 import * as fs from "fs/promises";
 import { parseEagleXML } from "@tscircuit/eagle-xml-converter";
+import {} from "../"
 
 async function main() {
   const resistorXml = (
@@ -27,7 +28,7 @@ async function main() {
   
   comp.smd
 
-  console.log(comp);
+  console.log(convertTocomp);
 }
 
 main();
